@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the site
+Allow: /index.html
+Allow: /pages/
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Disallow unnecessary files
+Disallow: /.vscode/
+Disallow: /api/
+Disallow: /assets/fonts/
+Disallow: /assets/icons/
+
+# Sitemap location
+Sitemap: http://localhost/Aquaknow-Fish-Identification%20and%20Education%20Platform/sitemap.xml
